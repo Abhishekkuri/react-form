@@ -1,0 +1,16 @@
+footer div{
+  background: #e1f4f3;
+}
+footer a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.social:hover {
+  -webkit-transform: scale(1);
+  -webkit-transition-duration: 0.5s;
+}
+
+.social {
+  -webkit-transform: scale(0.8);
+}

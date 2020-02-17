@@ -1,0 +1,12 @@
+.header {
+    height: 6vh;
+}
+
+.content {
+    min-height: 88vh;
+    background: #c7b198 !important;
+}
+
+.footer {
+    height: 6vh;
+}
