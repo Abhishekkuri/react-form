@@ -1,16 +1,24 @@
-footer div{
+footer {
   background: #e1f4f3;
+  /* position: relative; */
 }
+
 footer a:hover {
   text-decoration: none;
   color: orange;
 }
 
-.social:hover {
-  -webkit-transform: scale(1);
-  -webkit-transition-duration: 0.5s;
+footer a {
+  margin: auto 15px;
+  /* margin-bottom: 0px; */
+  /* position: absolute; */
 }
 
-.social {
-  -webkit-transform: scale(0.8);
+.icon {
+  -webkit-transform: scale(2);
+}
+
+.icon:hover {
+  -webkit-transform: scale(3);
+  -webkit-transition-duration: 0.5s;
 }
