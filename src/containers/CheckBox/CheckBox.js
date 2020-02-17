@@ -7,8 +7,8 @@ const CheckBox = props => {
       </div>
       {props.options.map(option => {
         return (
-          <div className="form-check form-check-inline">
-            <label className="form-group-label" key={option}>
+          <div className="form-check form-check-inline" key={option}>
+            <label className="form-group-label">
               <input
                 className="form-check-input"
                 id={props.name}

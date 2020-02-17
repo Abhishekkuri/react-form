@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Axios from "../../Axios/AxiosInstance";
 import Developer from "./Developer/Developer";
 import "../../containers/Loader/Loader.css";
+import "./Developers.css"
 
 export class Developers extends Component {
   constructor(props) {
@@ -51,7 +52,7 @@ export class Developers extends Component {
 
   render() {
     return (
-      <div>
+      <div className="developers">
         {!this.state.isLoading ? (
           <Developer
             developers={this.state.developers}
