@@ -5,6 +5,8 @@ import {
   faFacebookSquare,
   faTwitterSquare
 } from "@fortawesome/free-brands-svg-icons";
+
+import {faMailBulk} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
@@ -18,7 +20,7 @@ const Footer = () => {
             <FontAwesomeIcon className="icon" icon={faTwitterSquare} />
           </a>
           <a href="https://www.outlook.com">
-            <FontAwesomeIcon className="icon" icon={faLinkedin} />
+            <FontAwesomeIcon className="icon" icon={faMailBulk} />
           </a>
           <a href="https://linkedin.com/in/abhishekkuri">
             <FontAwesomeIcon className="icon" icon={faLinkedin} />
