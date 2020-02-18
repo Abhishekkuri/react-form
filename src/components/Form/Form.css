@@ -1,3 +1,8 @@
+.body {
+    background: #c7b198;
+    padding-bottom: 7vh;
+}
+
 .container {
     width: 60% !important;
     background: #f0ece2;
@@ -14,9 +19,7 @@
     text-align: left;
 }
 
-.body {
-    background: #c7b198;
-}
+
 
 .form-label {
     width: 15%;

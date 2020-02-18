@@ -1,6 +1,9 @@
 footer {
   background: #e1f4f3;
-  /* position: relative; */
+  height: 7vh;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
 footer a:hover {
@@ -10,8 +13,6 @@ footer a:hover {
 
 footer a {
   margin: auto 15px;
-  /* margin-bottom: 0px; */
-  /* position: absolute; */
 }
 
 .icon {
