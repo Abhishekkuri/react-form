@@ -3,7 +3,7 @@ import Button from "../../../containers/Button/Button";
 import "./Developer.css";
 
 const Developer = props => {
-  const developers = props.developers;
+  const developers = props.developers || {};
   // console.log(
   //   typeof developers,
   //   developers,
